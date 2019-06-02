@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Inscale_Browser]" parallel="methods">
+  <parameter name="browser" value="IE"/>
+  <test name="Inscale(failed)" parallel="methods">
+    <classes>
+      <class name="Inscale.Multi_Browser">
+        <methods>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Inscale.Multi_Browser -->
+    </classes>
+  </test> <!-- Inscale(failed) -->
+  <test name="Firefox Test(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Inscale.Multi_Browser">
+        <methods>
+          <include name="openBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Inscale.Multi_Browser -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Chrome Test(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Inscale.Multi_Browser">
+        <methods>
+          <include name="openBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Inscale.Multi_Browser -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test name="Safari Test(failed)" parallel="methods">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="Inscale.Multi_Browser">
+        <methods>
+          <include name="openBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Inscale.Multi_Browser -->
+    </classes>
+  </test> <!-- Safari Test(failed) -->
+  <test name="Opera Test(failed)" parallel="methods">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="Inscale.Multi_Browser">
+        <methods>
+          <include name="openBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Inscale.Multi_Browser -->
+    </classes>
+  </test> <!-- Opera Test(failed) -->
+  <test name="IE Test(failed)" parallel="methods">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="Inscale.Multi_Browser">
+        <methods>
+          <include name="openBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Inscale.Multi_Browser -->
+    </classes>
+  </test> <!-- IE Test(failed) -->
+</suite> <!-- Failed suite [Inscale_Browser] -->

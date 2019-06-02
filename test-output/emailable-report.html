@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Inscale_Browser</th></tr><tr><td><a href="#t0">Inscale</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">160</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Firefox Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">48,991</td><td></td><td></td></tr><tr><td><a href="#t2">Chrome Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">128</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t3">Safari Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">10,953</td><td></td><td></td></tr><tr><td><a href="#t4">Opera Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">247</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t5">IE Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">18</td><td></td><td></td></tr><tr><th>Total</th><th class="num">0</th><th class="num attn">1</th><th class="num attn">5</th><th class="num">60,497</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Inscale_Browser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Inscale &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Inscale.Multi_Browser</td><td><a href="#m0">openBrowser</a></td><td rowspan="1">1559484753996</td><td rowspan="1">0</td></tr></tbody><tbody id="t1"><tr><th colspan="4">Firefox Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Inscale.Multi_Browser</td><td><a href="#m1">openBrowser</a></td><td rowspan="1">1559484754214</td><td rowspan="1">48934</td></tr></tbody><tbody id="t2"><tr><th colspan="4">Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Inscale.Multi_Browser</td><td><a href="#m2">openBrowser</a></td><td rowspan="1">1559484803230</td><td rowspan="1">123</td></tr></tbody><tbody id="t3"><tr><th colspan="4">Safari Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Inscale.Multi_Browser</td><td><a href="#m3">openBrowser</a></td><td rowspan="1">1559484803363</td><td rowspan="1">10948</td></tr></tbody><tbody id="t4"><tr><th colspan="4">Opera Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Inscale.Multi_Browser</td><td><a href="#m4">openBrowser</a></td><td rowspan="1">1559484814421</td><td rowspan="1">242</td></tr></tbody><tbody id="t5"><tr><th colspan="4">IE Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Inscale.Multi_Browser</td><td><a href="#m5">openBrowser</a></td><td rowspan="1">1559484814898</td><td rowspan="1">13</td></tr></tbody></table><h2>Inscale</h2><h3 id="m0">Inscale.Multi_Browser#openBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by @Test on method openBrowser but has not been marked @Optional or defined
+in /Users/naveen514/Documents/workspace/INSCLAE/Inscale.xml
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Firefox Test</h2><h3 id="m1">Inscale.Multi_Browser#openBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+ader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Web Compat&quot;,&quot;description&quot;:&quot;Urgent post-release fixes for web compatibility.&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;installDate&quot;:1558048439000,&quot;updateDate&quot;:1558048439000,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi&quot;,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:&quot;59.0b5&quot;,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;incognito&quot;:&quot;spanning&quot;,&quot;userPermissions&quot;:{&quot;permissions&quot;:[&quot;webRequest&quot;,&quot;webRequestBlocking&quot;],&quot;origins&quot;:[&quot;&lt;all_urls&gt;&quot;]},&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;rootURI&quot;:&quot;jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi!/&quot;,&quot;location&quot;:&quot;app-system-defaults&quot;}
+1559484765374	addons.xpi-utils	DEBUG	Updating add-on states
+1559484765374	addons.xpi-utils	DEBUG	Error: Synchronously loading the add-ons database(resource://gre/modules/addons/XPIDatabase.jsm:1310:15) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1310:15
+startup@XPIProvider.jsm:2242:23
+callProvider@AddonManager.jsm:204:31
+_startProvider@AddonManager.jsm:655:5
+startup@AddonManager.jsm:811:14
+startup@AddonManager.jsm:2804:26
+observe@addonManager.js:65:29
+1559484765390	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1559484765412	addons.xpi	DEBUG	Calling bootstrap method startup on fxmonitor@mozilla.org version 3.0
+1559484765413	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 37.1.0
+1559484765414	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 4.0.0
+1559484765417	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1559484765417	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1559484765417	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1559484765417	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1559484765418	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1559484765418	addons.manager	DEBUG	Starting provider: GMPProvider
+1559484765437	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1559484765438	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1559484765438	addons.manager	DEBUG	Starting provider: PluginProvider
+1559484765438	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1559484765438	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1559484765502	addons.manager	DEBUG	Completed startup sequence
+1559484770255	addons.repository	DEBUG	No addons.json found.
+1559484790807	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+1559484791846	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: /var/folders/zd/1jjypqsj545c4kqlxjgpvcqm0000gn/T/anonymous1681484531457380864webdriver-profile/extensions/webdriver-staging
+1559484791847	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1559484791848	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
+1559484791848	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1559484791849	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1559484791849	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1559484791850	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2706: TypeError: addon is null
+1559484797175	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 31
+
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;naveens-mbp-2&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at Inscale.Multi_Browser.openBrowser(Multi_Browser.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Web Compat&quot;,&quot;description&quot;:&quot;Urgent post-release fixes for web compatibility.&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;installDate&quot;:1558048439000,&quot;updateDate&quot;:1558048439000,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi&quot;,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:&quot;59.0b5&quot;,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;incognito&quot;:&quot;spanning&quot;,&quot;userPermissions&quot;:{&quot;permissions&quot;:[&quot;webRequest&quot;,&quot;webRequestBlocking&quot;],&quot;origins&quot;:[&quot;&lt;all_urls&gt;&quot;]},&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;rootURI&quot;:&quot;jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi!/&quot;,&quot;location&quot;:&quot;app-system-defaults&quot;}
+1559484765374	addons.xpi-utils	DEBUG	Updating add-on states
+1559484765374	addons.xpi-utils	DEBUG	Error: Synchronously loading the add-ons database(resource://gre/modules/addons/XPIDatabase.jsm:1310:15) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1310:15
+startup@XPIProvider.jsm:2242:23
+callProvider@AddonManager.jsm:204:31
+_startProvider@AddonManager.jsm:655:5
+startup@AddonManager.jsm:811:14
+startup@AddonManager.jsm:2804:26
+observe@addonManager.js:65:29
+1559484765390	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1559484765412	addons.xpi	DEBUG	Calling bootstrap method startup on fxmonitor@mozilla.org version 3.0
+1559484765413	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 37.1.0
+1559484765414	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 4.0.0
+1559484765417	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1559484765417	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1559484765417	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1559484765417	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1559484765418	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1559484765418	addons.manager	DEBUG	Starting provider: GMPProvider
+1559484765437	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1559484765438	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1559484765438	addons.manager	DEBUG	Starting provider: PluginProvider
+1559484765438	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1559484765438	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1559484765502	addons.manager	DEBUG	Completed startup sequence
+1559484770255	addons.repository	DEBUG	No addons.json found.
+1559484790807	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+1559484791846	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: /var/folders/zd/1jjypqsj545c4kqlxjgpvcqm0000gn/T/anonymous1681484531457380864webdriver-profile/extensions/webdriver-staging
+1559484791847	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1559484791848	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
+1559484791848	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1559484791849	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1559484791849	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1559484791850	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2706: TypeError: addon is null
+1559484797175	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 31
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 20 more
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Chrome Test</h2><h3 id="m2">Inscale.Multi_Browser#openBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver is not executable: /Users/naveen514/Documents/workspace/INSCLAE/browsers/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:125)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at Inscale.Multi_Browser.openBrowser(Multi_Browser.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Safari Test</h2><h3 id="m3">Inscale.Multi_Browser#openBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>safari</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Failed to connect to SafariDriver after 10426 ms
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;naveens-mbp-2&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: SafariDriver
+	at org.openqa.selenium.safari.SafariDriverCommandExecutor.start(SafariDriverCommandExecutor.java:121)
+	at org.openqa.selenium.safari.SafariDriver.startClient(SafariDriver.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:62)
+	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:42)
+	at Inscale.Multi_Browser.openBrowser(Multi_Browser.java:47)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Opera Test</h2><h3 id="m4">Inscale.Multi_Browser#openBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>opera</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: /Users/naveen514/Documents/workspace/INSCLAE/browsers/operedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.opera.OperaDriverService.access$0(OperaDriverService.java:1)
+	at org.openqa.selenium.opera.OperaDriverService$Builder.findDefaultExecutable(OperaDriverService.java:118)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.opera.OperaDriverService.createDefaultService(OperaDriverService.java:82)
+	at org.openqa.selenium.opera.OperaDriver.&lt;init&gt;(OperaDriver.java:115)
+	at Inscale.Multi_Browser.openBrowser(Multi_Browser.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>IE Test</h2><h3 id="m5">Inscale.Multi_Browser#openBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>IE</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+	at org.openqa.selenium.ie.InternetExplorerDriverService.access$0(InternetExplorerDriverService.java:1)
+	at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:251)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:172)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:146)
+	at Inscale.Multi_Browser.openBrowser(Multi_Browser.java:43)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
