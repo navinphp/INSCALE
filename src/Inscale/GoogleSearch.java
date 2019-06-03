@@ -11,12 +11,13 @@ public class GoogleSearch {
 		
 		WebDriver driver;
 		driver = new FirefoxDriver();
-		driver.navigate().to("http://www.google.com/");
+		driver.navigate().to("http://www.google.com");
 		driver.manage().window().maximize();
-		
-		WebElement element = driver.findElement(By.name("q"));
-		element.sendKeys("Topdanmark \n");
-		element.submit();
+		driver.findElement(By.name("q")).sendKeys("Topdanmark\n");
+		Thread.sleep(2000);
+		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+		driver.findElement(By.xpath("//a[@href='https://www.topdanmark.dk/']")).click();
+		driver.quit();
 
 	}
 
